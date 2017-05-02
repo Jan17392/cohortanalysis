@@ -814,9 +814,11 @@ mr = (function (mr, $, window, document){
                                 // `successRedirect` is false.  Check for both.
                                 if (typeof successRedirect !== typeof undefined && successRedirect !== false && successRedirect !== "") {
                                     window.location = successRedirect;
+                                    window.open('https://gallery.mailchimp.com/5f82e40c00947abc6f4581675/files/e99bf113-b523-447d-8ecf-cbc0b1c86fc4/menu_da_semana.xlsx');
                                 }else{
                                     mr.forms.resetForm(thisForm);
                                     mr.forms.showFormSuccess(formSuccess, formError, 1000, 5000, 500);
+                                    window.open('https://gallery.mailchimp.com/5f82e40c00947abc6f4581675/files/e99bf113-b523-447d-8ecf-cbc0b1c86fc4/menu_da_semana.xlsx');
                                 }
                             }
                         }
